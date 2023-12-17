@@ -17,7 +17,7 @@ Password Generator in Python
 
 
 ## Desctription
-Crypt Warden is a password generator application built using Tkinter, allowing users to create secure passwords with customizable options. Note that the first release of Crypt Warden is a password generator in Python and will be updated. User will have possibility to use ascii letters, ascii symbols and numbers in the password. A password will be generated with secrets module in random sequences from choosen number of characters. Recommendation for a strong and secure password is to use all options and as high character set as possible.
+Crypt Warden is a password generator application built using Tkinter, allowing users to create secure passwords with customizable options. Note that the first release of Crypt Warden is a password generator in Python and will be updated. User will have possibility to use ascii letters, ascii symbols and numbers in the password. A password will be generated with secrets module in random sequences from choosen number of characters. Recommendation for a strong and secure password is to use all options and as high character set as possible. GUI APP is using customtkinter module.
 
 ## Features 
 GUI APP - Generate random passwords with customizable options.
@@ -40,6 +40,7 @@ after password is generated free to copy from terminal.
 
 ### GUI
 pw_gen_gui.py is GUI based on the customtkinter module which is extension for the tkinter framework. User choose by clicking on checkboxes with each character set. 
+Also GUI have the copy to clipboard basically plug and play
 
 ## License 
 This project is licensed under the MIT License.
